@@ -55,6 +55,7 @@ requirejs([
   var score = 0;
   var inputElem = document.getElementById("inputarea");
   var colorElem = document.getElementById("display");
+  var noElem = document.getElementById("nomotion");
   var client = new GameClient();
 
   CommonUI.setupStandardControllerUI(client, globals);
@@ -101,7 +102,7 @@ requirejs([
   };
 
   if (!window.DeviceMotionEvent) {
-    alert("Your device/browser does not support device orientation. Sorry");
+    noElem.style.display = "block";
     return;
   }
 
@@ -119,7 +120,7 @@ requirejs([
   };
 
   if (!window.DeviceOrientationEvent) {
-    alert("Your device/browser does not support device orientation. Sorry");
+    noElem.style.display = "block";
     return;
   }
 
