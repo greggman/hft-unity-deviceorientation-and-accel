@@ -48,9 +48,11 @@ requirejs([
 
   var globals = {
     debug: false,
+    orientation: "portrait-primary",
   };
   Misc.applyUrlSettings(globals);
   MobileHacks.fixHeightHack();
+  MobileHacks.disableContextMenu();
 
   var score = 0;
   var inputElem = document.getElementById("inputarea");
