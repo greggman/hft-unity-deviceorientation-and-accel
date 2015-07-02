@@ -49,6 +49,7 @@ requirejs([
   var globals = {
     debug: false,
     orientation: "portrait-primary",
+    orientationOptional: true,  // Don't ask user to orient if their system doens't support it
   };
   Misc.applyUrlSettings(globals);
   MobileHacks.fixHeightHack();
