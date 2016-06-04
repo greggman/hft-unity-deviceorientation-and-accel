@@ -1,19 +1,10 @@
 HFT-Unity Device Orientation and Accleration example
 ====================================================
 
-This is a sample Unity3D game for the [HappyFunTimes party games system](http://greggman.github.io/HappyFunTimes).
+** This repo is depecated. It has been merged with http://github.com/greggman/hft-unity3d **
 
-<img src="Assets/WebPlayerTemplates/HappyFunTimes/screenshot.png" />
+In that repo see the scenes in `Assets/HappyFunTimes/Samples/Scenes/OrientationScene`
 
-For each player a cube appears. They can orient the cube by orienting their phone. Shake the phone
-up to move the cube forward.
-
-If you just want to play go to http://superhappyfuntimes.net/game/unitydevorientaccel
-
-Cloning
--------
-
-[If you want to clone this follow the instructions here](https://github.com/greggman/HappyFunTimes/blob/master/docs/unitydocs.md)
 
 
 
